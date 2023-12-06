@@ -98,6 +98,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: #e2e3ed;
+  text-align: left;
 }
 
 ul,
@@ -314,6 +315,11 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 /* Reviews section */
