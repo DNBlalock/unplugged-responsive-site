@@ -117,6 +117,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -189,9 +190,9 @@ header nav {
 }
 
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  width: 100%;
 }
 
 header nav ul li {
@@ -228,6 +229,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -312,14 +321,14 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.features p {
-  text-align: center;
-  margin: 0;
-}
-
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
+}
+
+.features p {
+  text-align: center;
+  margin: 0;
 }
 
 /* Reviews section */
@@ -523,7 +532,6 @@ input[type=button] {
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
-
   }
 
   header figure {
@@ -597,10 +605,7 @@ input[type=button] {
     width: 85%;
   }
 
-  .reviews article figure {
-    width: 50%;
-  }
-
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -634,6 +639,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -690,7 +700,7 @@ input[type=button] {
   }
 
   .faq h4,
-  p {
+  .fag p {
     font-size: .875em;
     line-height: 1.125;
   }
@@ -724,7 +734,6 @@ input[type=button] {
     line-height: 1.333;
   }
 
-
   /* Hero Area */
 
   .hero-area h1 {
@@ -740,7 +749,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   /* Features Area */
@@ -748,7 +757,6 @@ input[type=button] {
   .features h2 {
     width: 90%;
   }
-
 
   .features article {
     flex-basis: 33%;
@@ -773,7 +781,6 @@ input[type=button] {
   /* ============================================= 
   About Page
  =============================================== */
-
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
